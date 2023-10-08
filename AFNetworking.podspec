@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/AFNetworking/AFNetworking'
   s.social_media_url = 'https://twitter.com/AFNetworking'
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
-  s.source   = { :git => 'https://github.com/AFNetworking/AFNetworking.git', :tag => s.version, :submodules => true }
+  s.source   = { :git => 'https://github.com/Droplr/AFNetworking.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
   
   s.public_header_files = 'AFNetworking/AFNetworking.h'
@@ -24,7 +24,7 @@ EOS
   s.prefix_header_contents = pch_AF
   
   s.ios.deployment_target = '7.0'
-  s.osx.deployment_target = '10.9'
+  s.osx.deployment_target = '10.13'
   s.watchos.deployment_target = '2.0'
   
   s.subspec 'Serialization' do |ss|
